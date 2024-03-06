@@ -2,7 +2,7 @@
 
 // function matchingStrings(strings, queries) {
 //     const occurrenceCount = {};
-    
+
 //     queries.forEach(query => occurrenceCount[query] = 0);
 
 //     strings.forEach(string => {
@@ -11,7 +11,7 @@
 //         }
 //     });
 //     return queries.map(query => occurrenceCount[query]);
-    
+
 //     console.log(occurrenceCount)
 // }
 
@@ -22,15 +22,15 @@
 
 function lonelyinteger(a) {
     const calculador = {};
-    
+
     a.forEach(numero => {
         calculador[numero] = (calculador[numero] || 0) + 1;
     });
-    
-    const valor = Object.keys(calculador).find((element) => calculador[element] ===1)
-    
+
+    const valor = Object.keys(calculador).find((element) => calculador[element] === 1)
+
     return valor
-    
+
     console.log(a.length);
     console.log(a.join(" "));
 }

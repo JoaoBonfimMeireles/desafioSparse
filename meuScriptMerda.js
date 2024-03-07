@@ -1,3 +1,5 @@
+//timeZone
+
 function timeConversion(s) {
 
     const partes = s.split(' ');
@@ -13,5 +15,4 @@ function timeConversion(s) {
     } else if (s.includes("AM") && horas === 12) {
         return ((horas = "00") + ":" + minutosFormatados + ":" + segundosFormatados)
     }
-
 }

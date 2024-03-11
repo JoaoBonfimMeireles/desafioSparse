@@ -15,3 +15,4 @@ function matchingStrings(strings, queries) {
     console.log(occurrenceCount)
 }
 
+// essa função vê qual é quantidade de buscas queries são feitas dentro da strings, trazendo em um array

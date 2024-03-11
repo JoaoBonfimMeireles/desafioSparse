@@ -16,3 +16,5 @@ function lonelyinteger(a) {
     console.log(a.length);
     console.log(a.join(" "));
 }
+
+// esse codigo serve para ver qual é o valor unico que aparece no array. Ex a = [1, 1, 2, 3, 3], o valor vai ser 2

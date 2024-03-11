@@ -22,3 +22,5 @@ function timeConversion(s) {
 
     return `${hora.toString().padStart(2, '0')}:${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
 }
+
+// serve para alterar a forma do horario norte americano para a forma global 

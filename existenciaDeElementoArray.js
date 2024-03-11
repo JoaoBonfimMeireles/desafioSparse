@@ -1,5 +1,10 @@
-//
-
+// new Set serve para criar uma nova intancia (armazena os valores de forma unica e sem duplicata com objeto)
+    // new cria uma nova intancia (objeto ou função contrutora)
+    // Set serve para trazer o valor unico e sem duplicata
+// replace serve para trocar os valores dentro da array
+    // ^ é um caracter de negação que indica que tudo fora de a-z não deve estar no array = tira
+    // g serve para indicar que essa alteração é global
+    // '' tira tudo por espaço também
 
 function pangrams(s) {
     const alfabeto = "abcdefghijklmnopqrstuvwxyz";
@@ -48,3 +53,6 @@ function pangrams(s) {
     console.log('2', capitador)
     console.log('3', minusculo)
 }
+
+
+// esse codigo serve para ver se as frases do S tem todas as letras do alfabeto

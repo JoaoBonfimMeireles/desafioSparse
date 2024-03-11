@@ -21,3 +21,5 @@ function diagonalDifference(arr) {
     
     return Math.abs(diagonal1 - diagonal2);
 }
+
+// ele calcula os valores de forma diagonal, da esquerda para a direta e da direita para a esquerda e subtrai pela quantidade de letras. 

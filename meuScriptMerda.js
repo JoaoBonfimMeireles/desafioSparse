@@ -16,3 +16,50 @@ function timeConversion(s) {
         return ((horas = "00") + ":" + minutosFormatados + ":" + segundosFormatados)
     }
 }
+
+
+//existencia De Elemento Array
+
+function pangrams(s) {
+    const alfabeto = "abcdefghijklmnopqrstuvwxyz";
+    const minusculo = (s.toLowerCase().split(/\s*/));
+    const words = alfabeto.split('');
+
+    const capitador = {};
+    
+    words.forEach(letras => {
+        capitador[letras] = minusculo.includes(letras)
+    })
+    
+    if (Object.values(capitador).every(valor => valor === true)){
+        return "pangram"
+    }else {
+        return "not pangram"
+    }
+    
+    console.log('1', words)
+    console.log('2', capitador)
+    console.log('3', minusculo)
+}
+
+// quantidade de pares de meia
+
+function sockMerchant(n, ar) {
+    const array = Array.from({ length: n}, () => (0));
+    let valor = 0;
+    
+    ar.forEach((add) => {
+        array[add] = (array[add] || 0) + 1;
+    })
+    
+    array.forEach((element) => {
+        if (element >= 2) {
+            valor += Math.floor(element /2);
+        }
+    })
+    
+    
+    return valor
+   console.log(array)
+
+}

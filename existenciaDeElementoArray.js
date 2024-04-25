@@ -19,7 +19,6 @@ function pangrams(s) {
     return "pangram";
 }
 
-
 //////////////////////////////////////////// o que eu fiz não ficou tão ruim //////////////////////////////////////////////////////
 // toLowerCase serve para deicar letras no minusculo
 // split é para separar as palavras 
@@ -30,7 +29,6 @@ function pangrams(s) {
 // includes é para ver se exite o valor dentro do array
 // Object.values serve para tranformar o objeto como um "array" e pega os valores
 // every serve para ver todos os valores do array
-
 
 function pangrams(s) {
     const alfabeto = "abcdefghijklmnopqrstuvwxyz";
